@@ -148,8 +148,8 @@ class Cherwell:
 
     response = self.session.request(method='post',url=uri,json=request_body,headers=self.headers)
     return response
-
-C = Cherwell('') #cherwell server name (FQDN goes here
+server = input('Enter cherwell FQDN :')
+C = Cherwell(server) #cherwell server name (FQDN goes here
 C.authenticate()
 print("####################################")
 print("Welcome to Cherwell Integration")
