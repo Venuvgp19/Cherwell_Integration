@@ -25,13 +25,6 @@ class Cherwell:
     self.teamId = "944d7ef175ef37d9be87284182808fa24ca78f5312"
   ## End __init__
 
-
-  def __del__(self):
-    pass
-
-  ## End __del__
-
-
   def authenticate(self):
     '''
     Authentication part
