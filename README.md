@@ -1,10 +1,14 @@
 # Cherwell_Integration
 Module used to interact with Cherwell SMT ( Service Managament Tool ) 
 
-## Clone the repo
-    git clone https://github.com/Venuvgp19/cherwell_Integration
+## Clone the repo and navigate to project directory
+    git clone https://github.com/Venuvgp19/Cherwell_Integration
+    cd Cherwell_Integration
 
-## In the authenticate method, update username, password and API key.\
+## edit the below script as mentioned in the steps further below.
+    Create_cherwell_Ticket.py
+
+## In the authenticate method of class cherwell, update username, password and API key.
     user_name  = "username"
     password   = "password"
     api_key    = "apikey"
