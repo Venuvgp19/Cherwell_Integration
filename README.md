@@ -23,7 +23,7 @@ Module used to interact with Cherwell SMT ( Service Managament Tool )
     (venu) (base) [root@server Cherwell_Integration]# python Create_cherwell_Ticket.py
     Enter cherwell FQDN : cherwell.example.com
     ####################################
-    Welcome to Cherwell UNIX Integration
+    Welcome to Cherwell Integration
     ####################################
     Enter the Summary : Testing
     Enter a Brief Description : Testing
