@@ -14,7 +14,6 @@ import os
 class Cherwell:
 
   def __init__(self, url):
-    #self.server    = "unfi.cherwellondemand.com"
     self.server    = url
     self.api_url   = "https://{}/CherwellAPI" . format(self.server)
     self.headers   = {"Content-Type": "application/json"}
@@ -159,7 +158,7 @@ class Cherwell:
     response = self.session.request(method='post',url=uri,json=request_body,headers=self.headers)
     return response
 
-C = Cherwell('unfi.cherwellondemand.com')
+C = Cherwell('') #cherwell server name (FQDN goes here
 C.authenticate()
 print("####################################")
 print("Welcome to Cherwell Integration")
