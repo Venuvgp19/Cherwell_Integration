@@ -3,7 +3,7 @@
 #Author : Venugopal P
 #Python version : 3.6.8
 #Requirements : requests,json,os.
-#Purpose : To create Incidents/Requests in cherwell tool.
+#Purpose : To create Incidents/Requests in cherwell tool
 
 ########################
 
@@ -21,8 +21,6 @@ class Cherwell:
     self.auth_mode = "Internal"
     self.boid = "6dd53665c0c24cab86870a21cf6434ae"
     self.session = requests.session()
-    self.teamName = "your team name goes here"
-    self.teamId = "944d7ef175ef37d9be87284182808fa24ca78f5312"
   ## End __init__
 
   def authenticate(self):
