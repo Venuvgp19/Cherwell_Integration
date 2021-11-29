@@ -1,7 +1,8 @@
 # Cherwell_Integration
 Module used to interact with Cherwell SMT ( Service Managament Tool ) 
 
-#For the module to work follow below steps:
+## Clone the repo
+    git clone https://github.com/Venuvgp19/cherwell_Integration
 
 ## In the authenticate method, update username, password and API key.\
     user_name  = "username"
