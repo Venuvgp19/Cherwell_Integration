@@ -11,7 +11,7 @@ For the module to work follow below steps:
    
 2) In the getCustomerInternalRecordId method, Update the Full name of the User ID that was used to create the ID.
 
-        search_criteria = {
+      search_criteria = {
       "fieldId":  "93382178280a07634f62d74fc4bc587e3b3f479776",  #Full name field ID
       "operator": "eq",
       "value":    "" #Full name of the user ID
