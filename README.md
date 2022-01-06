@@ -41,4 +41,4 @@ Module used to interact with Cherwell SMT ( Service Managament Tool )
 
 Incident 2029597 has been raised in the above case to Unix team with priority 5.
 
-    
+##execute CMDB.py to get the config server details in you cherwell CMDB output will be saved to CMDB_all.txt in the work directory.
